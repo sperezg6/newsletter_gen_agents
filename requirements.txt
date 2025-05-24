@@ -1,0 +1,16 @@
+# Dependencies
+langchain
+langgraph
+openai
+beautifulsoup4
+requests
+feedparser
+pydantic
+python-dotenv
+pytest
+black
+flake8
+
+# Development dependencies
+jupyter
+ipython
