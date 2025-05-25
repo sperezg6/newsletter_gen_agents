@@ -1,0 +1,101 @@
+# Newsletter Configuration
+newsletter:
+  name: "Data Engineering Journey"
+  author: "Santiago Perez"
+  target_word_count: 1500
+  publication_schedule: "weekly"
+  tone: "conversational_professional"
+  
+# Research Configuration
+research:
+  default_time_filter: "week"  # day, week, month
+  max_sources_per_topic: 5
+  quality_threshold: 7  # 1-10 scale
+  preferred_sources:
+    - "engineering.amazon.com"
+    - "medium.com/@data-engineering"
+    - "towardsdatascience.com"
+    - "databricks.com/blog"
+    - "snowflake.com/blog"
+    - "airflow.apache.org/blog"
+    - "kafka.apache.org/blog"
+  
+  topics:
+    primary:
+      - "data engineering trends"
+      - "big tech engineering culture"
+      - "career development data engineering"
+      - "Amazon engineering practices"
+    
+    secondary:
+      - "data engineering tools"
+      - "streaming data platforms"
+      - "data warehouse modernization"
+      - "MLOps and data engineering"
+      - "data engineering interview prep"
+    
+    emerging:
+      - "real-time analytics"
+      - "data mesh architecture"
+      - "serverless data processing"
+      - "data quality engineering"
+
+# Content Analysis Configuration  
+analysis:
+  relevance_factors:
+    - technical_depth
+    - career_relevance
+    - timeliness
+    - accessibility
+    - actionability
+    - storytelling_potential
+  
+  scoring_weights:
+    technical_depth: 0.2
+    career_relevance: 0.25
+    timeliness: 0.15
+    accessibility: 0.15
+    actionability: 0.15
+    storytelling_potential: 0.1
+
+# Writing Configuration
+writing:
+  style_guidelines:
+    - "Use first person for personal experiences"
+    - "Balance technical depth with accessibility"
+    - "Include specific examples and metrics"
+    - "Maintain conversational yet professional tone"
+    - "Show vulnerability and authenticity"
+    - "Connect startup experience with big tech insights"
+  
+  structure:
+    - "Compelling hook opening"
+    - "Context setting"
+    - "Personal narrative"
+    - "Technical insights"
+    - "Practical takeaways"
+    - "Future preview"
+    - "Thought-provoking quote"
+  
+  voice_characteristics:
+    - "Self-deprecating humor when appropriate"
+    - "Wonder and curiosity about new experiences"
+    - "Honest about challenges without complaining"
+    - "Respectful of colleagues and company"
+    - "Encouraging to readers at all career stages"
+
+# Quality Assurance Configuration
+quality_assurance:
+  checks:
+    - word_count_range
+    - tone_consistency
+    - technical_accuracy
+    - readability_score
+    - structure_compliance
+    - fact_checking
+  
+  metrics:
+    min_word_count: 1200
+    max_word_count: 1800
+    target_readability: "high_school"
+    required_sections: 5
