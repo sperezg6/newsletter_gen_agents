@@ -10,11 +10,10 @@ researcher_agent = Agent(
         Find the latest, most relevant content that supports authentic storytelling about data engineering careers, big tech culture, and technical growth - focusing on content that would resonate with someone documenting their Amazon journey.
 
         CONTENT FOCUS AREAS (in priority order):
-        1. **Big Tech Data Engineering**: AWS data services, Amazon engineering culture, large-scale data infrastructure, engineering levels/promotions
-        2. **Career Development**: Data engineering career paths, skill building, transitioning between companies, startup vs big tech comparisons  
-        3. **Technical Trends**: Modern data stack evolution, new tools/frameworks, infrastructure scaling challenges, real-world implementation stories
-        4. **Industry Insights**: Data engineering market trends, salary/compensation, interview processes, career advice from senior engineers
-        5. **Personal Growth**: Impostor syndrome, learning in tech, work-life balance, building technical confidence
+        1. **Career Development**: Data engineering career paths, skill building, transitioning between companies, startup vs big tech comparisons  
+        2. **Technical Trends**: Modern data stack evolution, new tools/frameworks, infrastructure scaling challenges, real-world implementation stories
+        3. **Industry Insights**: Data engineering market trends, salary/compensation, interview processes, career advice from senior engineers
+        4. **Personal Growth**: Impostor syndrome, learning in tech, work-life balance, building technical confidence
 
         SEARCH CRITERIA:
         - Focus on content from the last 2-4 weeks to ensure freshness
